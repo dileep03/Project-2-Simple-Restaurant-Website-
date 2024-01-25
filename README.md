@@ -35,7 +35,7 @@ nodemon app.js
 This command will start your application.
 
 6. Accessing the application:
-   \ Open the website in your browser:
+   \Open the website in your browser:
     [http://localhost:3000](http://localhost:3000)
 - To access certain features, you need to log in or sign up.
 
