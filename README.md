@@ -25,7 +25,7 @@ This is a simple restaurant website with user login and signup authentication.
   npm install
 ```
 4. Set up the MongoDB database: 
-   1. Create a MongoDB Atlas account or set up a local MongoDB instance.
+   1. Create a MongoDB Atlas account and set up a new cluster.
    2. Update the MongoDB connection string in the app.js file (paste the string in line 18 **const dbURL=''**).
 
 5. Start the application:
