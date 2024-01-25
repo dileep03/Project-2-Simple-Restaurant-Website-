@@ -4,7 +4,7 @@ This is a simple restaurant website with user login and signup authentication.
 ## Features
 - User Authentication (Login & Signup)
 - Online Table Reservation (Logic not implemented).
-- 
+
 ## Technologies Used
 - Node.js
 - Express
@@ -25,8 +25,8 @@ This is a simple restaurant website with user login and signup authentication.
   npm install
 ```
 4. Set up the MongoDB database: 
-1. Create a MongoDB Atlas account or set up a local MongoDB instance.
-2. Update the MongoDB connection string in the app.js file (paste the string in line 18 **const dbURL=**).
+   1. Create a MongoDB Atlas account or set up a local MongoDB instance.
+   2. Update the MongoDB connection string in the app.js file (paste the string in line 18 **const dbURL=**).
 
 5. Start the application:
 ```
@@ -35,35 +35,9 @@ nodemon app.js
 This command will start your application.
 
 6. Accessing the application:
-    Open the website in your browser:
+   \ Open the website in your browser:
     [http://localhost:3000](http://localhost:3000)
 - To access certain features, you need to log in or sign up.
-
-## Folder Struture
-/controllers
-  - authController.js
-/middleware
-  - authMiddleware.js
-/models
-  - User.js
-/public
-  /assets
-  - styles.css
-/routes
-  - authRoutes.js
-/views
-  /partials
-    - footer.ejs
-    - header.ejs
-    - main.ejs
-  - home.ejs
-  - login.ejs
-  - reserve.ejs
-  - signup.ejs
-- app.js
-- README.md
-- package.json
-- package-lock.json
 
 ## Contributing
 Feel free to contribute to this project by opening issues or creating pull requests. Your feedback and suggestions are welcome!
